@@ -22,7 +22,7 @@ const errorPage = `
             border- color: #721c24;
         }
     </style>
-    <img src="https://raw.githubusercontent.com/odoo/mail-client-extensions/master/outlook/assets/odoo-full.png">
+    <img src="https://raw.githubusercontent.com/skysilk/mail-client-extensions/master/outlook/assets/odoo.png">
     <div class="alert">__ERROR_MESSAGE__</div>
 </html>`;
 

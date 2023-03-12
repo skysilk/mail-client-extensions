@@ -12,8 +12,8 @@ function onNextLogin(event) {
         return notify("Invalid URL");
     }
 
-    if (!/^https:\/\/([^\/?]*\.)?odoo\.com(\/|$)/.test(validatedUrl)) {
-        return notify("The URL must be a subdomain of odoo.com");
+    if (!/^https:\/\/([^\/?]*\.)?itcreations\.com(\/|$)/.test(validatedUrl)) {
+        return notify("The URL must be a subdomain of itcreations.com");
     }
 
     clearTranslationCache();
