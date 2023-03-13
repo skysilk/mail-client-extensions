@@ -2,7 +2,7 @@ import { buildView } from "./views/index";
 import { Email } from "./models/email";
 import { State } from "./models/state";
 import { Partner } from "./models/partner";
-import { _t } from "../services/translation";
+import { _t } from "./services/translation";
 
 /**
  * Entry point of the application, executed when an email is open.
@@ -13,7 +13,7 @@ import { _t } from "../services/translation";
  * If the user is connected to a Odoo database, we will fetch the corresponding partner
  * and other information like his leads, tickets, company...
  */
-function onGmailMessageOpen(event) {
+function onGmailMessageOpen(event: any) {
     GmailApp.setCurrentMessageAccessToken(event.messageMetadata.accessToken);
     const currentEmail = new Email(event.gmail.messageId, event.gmail.accessToken);
 

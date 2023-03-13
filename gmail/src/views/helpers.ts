@@ -80,7 +80,7 @@ export function createKeyValueWidget(
     return widget;
 }
 
-function _handleActionCall(event) {
+function _handleActionCall(event: any) {
     const functionName = event.parameters.functionName;
     const state = State.fromJson(event.parameters.state);
     const parameters = JSON.parse(event.parameters.parameters);
