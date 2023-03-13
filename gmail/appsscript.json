@@ -16,7 +16,9 @@
     ],
     "primaryColor": "#875A7B",
     "secondaryColor": "#00A09D",
-    "openLinkUrlPrefixes": ["*"]
+    "openLinkUrlPrefixes": [
+      "*"
+    ]
   },
   "urlFetchWhitelist": [
     "https://*.itcreations.com/mail_plugin/get_translations",
@@ -34,21 +36,30 @@
     "https://*.itcreations.com/web/login",
     "https://*.itcreations.com/mail_plugin/auth",
     "https://*.itcreations.com/mail_plugin/auth/access_token",
-    "https://itcreations.com/mail_plugin/get_translations",
-    "https://itcreations.com/mail_plugin/partner/get",
-    "https://itcreations.com/mail_plugin/log_mail_content",
-    "https://itcreations.com/mail_plugin/partner/search",
-    "https://itcreations.com/mail_plugin/partner/create",
-    "https://itcreations.com/mail_plugin/partner/enrich_and_create_company",
-    "https://itcreations.com/mail_plugin/partner/enrich_and_update_company",
-    "https://itcreations.com/mail_plugin/lead/create",
-    "https://itcreations.com/mail_plugin/ticket/create",
-    "https://itcreations.com/mail_plugin/project/search",
-    "https://itcreations.com/mail_plugin/project/create",
-    "https://itcreations.com/mail_plugin/task/create",
-    "https://itcreations.com/web/login",
-    "https://itcreations.com/mail_plugin/auth",
-    "https://itcreations.com/mail_plugin/auth/access_token",
+    "https://crm.itcreations.com/mail_plugin/get_translations",
+    "https://crm.itcreations.com/mail_plugin/partner/get",
+    "https://crm.itcreations.com/mail_plugin/log_mail_content",
+    "https://crm.itcreations.com/mail_plugin/partner/search",
+    "https://crm.itcreations.com/mail_plugin/partner/create",
+    "https://crm.itcreations.com/mail_plugin/partner/enrich_and_create_company",
+    "https://crm.itcreations.com/mail_plugin/partner/enrich_and_update_company",
+    "https://crm.itcreations.com/mail_plugin/lead/create",
+    "https://crm.itcreations.com/mail_plugin/ticket/create",
+    "https://crm.itcreations.com/mail_plugin/project/search",
+    "https://crm.itcreations.com/mail_plugin/project/create",
+    "https://crm.itcreations.com/mail_plugin/task/create",
+    "https://crm.itcreations.com/web/login",
+    "https://crm.itcreations.com/mail_plugin/auth",
+    "https://crm.itcreations.com/mail_plugin/auth/access_token",
     "https://iap-services.odoo.com/iap/mail_extension/enrich"
-  ]
+  ],
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Gmail",
+        "serviceId": "gmail",
+        "version": "v1"
+      }
+    ]
+  }
 }
